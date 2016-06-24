@@ -36,6 +36,7 @@ public class Principal extends javax.swing.JFrame {
         listaGatos = new ArrayList<>();
         setResizable(false);
         setLocationRelativeTo(null);
+        //actualizar al iniciar al proyecto, carga de informacion 
         asignarListeners();
         
     }
